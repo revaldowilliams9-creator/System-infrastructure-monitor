@@ -2,6 +2,9 @@
 
 A practical Systems Engineering and DevOps automation tool written in Python that monitors local host machine hardware performance in real-time and routes anomaly notifications straight into a live enterprise Slack workspace log.
 
+## 💡 Why I Built This 
+I built this tool to automate host performance monitoring and eliminate the need to manually watch system resource dashboards. By profiling individual CPU cores and routing real-time JSON alerts to Slack via environment-secured webhooks, it demonstrates practical DevOps observability and incident notification workflows.
+
 ## ⚙️ Core Architecture & Concept
 * **Systems Engineering (Observability):** Hooks into the local OS kernel to continuously profile resource utilization across individual, isolated logical processor cores (`percpu=True`).
 * **DevOps Engineering (Automation):** Replaces manual oversight with an active, programmatic alert framework that instantly formats error telemetry logs and pipes them securely to team communication channels.
