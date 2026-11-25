@@ -1,6 +1,6 @@
 # Local System Infrastructure Monitor 🚨
 
-A practical **Systems Engineering and DevOps automation tool** written in **Python** that monitors local host machine hardware performance in real-time and routes anomaly notifications straight into a live enterprise **Slack** workspace logs.
+A practical Systems Engineering and DevOps automation tool written in Python that monitors local host machine hardware performance in real-time and routes anomaly notifications straight into a live enterprise Slack workspace log.
 
 ## ⚙️ Core Architecture & Concept
 * **Systems Engineering (Observability):** Hooks into the local OS kernel to continuously profile resource utilization across individual, isolated logical processor cores (`percpu=True`).
@@ -16,7 +16,7 @@ A practical **Systems Engineering and DevOps automation tool** written in **Pyth
 1. **Clone your repository destination:**
    ```bash
    git clone https://github.com
-   cd YOUR-REPOSITORY-NAME
+   cd System-infrastructure-monitor
    ```
 
 2. **Install host environment utility packages:**
@@ -33,7 +33,7 @@ A practical **Systems Engineering and DevOps automation tool** written in **Pyth
 
 4. **Launch the core monitoring pipeline agent:**
    ```bash
-python system_monitor.py
+   python system_monitor.py
    ```
 
 ## 📊 Sample Output Logs
@@ -46,7 +46,4 @@ Core 1: 18.2%
 Core 2: 94.7%
 Core 3: 11.1%
 Overall RAM Usage: 71.4%
---------------------------
-🚨 DevOps ALERT: High load detected on specific processing units! -> Core 2 (94.7%)
-Alert successfully sent to DevOps chat channel!
 ```
