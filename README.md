@@ -46,6 +46,9 @@ Core 1: 18.2%
 Core 2: 94.7%
 Core 3: 11.1%
 
-I built this tool to automate host performance monitoring and eliminate the need to manually watch system resource dashboards. By profiling individual CPU cores and routing real-time JSON alerts to Slack via environment-secured webhooks, it demonstrates practical DevOps observability and incident notification workflows.
+
 Overall RAM Usage: 71.4%
 ```
+
+
+I built this tool to automate host performance monitoring and eliminate the need to manually watch system resource dashboards. By profiling individual CPU cores and routing real-time JSON alerts to Slack via environment-secured webhooks, it demonstrates practical DevOps observability and incident notification workflows.
