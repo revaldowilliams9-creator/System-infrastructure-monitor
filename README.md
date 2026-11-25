@@ -33,7 +33,7 @@ A practical **Systems Engineering and DevOps automation tool** written in **Pyth
 
 4. **Launch the core monitoring pipeline agent:**
    ```bash
-   python "import psutil.py"
+python system_monitor.py
    ```
 
 ## 📊 Sample Output Logs
