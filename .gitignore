@@ -1,0 +1,25 @@
+# Environment variables & secrets (CRITICAL for Slack Webhook URLs)
+.env
+.env.local
+.env.*
+*.env
+
+# Monitoring & system logs
+*.log
+logs/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
