@@ -18,7 +18,7 @@ I built this tool to automate host performance monitoring and eliminate the need
 
 1. **Clone your repository destination:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/revaldowilliams9-creator/System-infrastructure-monitor.git
    cd System-infrastructure-monitor
    ```
 
